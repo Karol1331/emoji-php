@@ -10,7 +10,7 @@ include 'emoji.php';
 
 $db = new 🌐('your_database_name', 'server', 'user', 'password');
 
-🔂($db->🔎("SELECT * FROM your_table"), function () {
+🔂($db->🔎("SELECT * FROM your_table"), function ($key, $value) {
   // Process each row of the result
 });
 
