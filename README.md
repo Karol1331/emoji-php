@@ -8,7 +8,7 @@ To use the Emoji PHP Library in your project, include the `emoji.php` file and c
 <?php
 include 'emoji.php';
 
-$db = new 🌐('your_database_name', 'localhost', 'root', '');
+$db = new 🌐('your_database_name', 'server', 'user', 'password');
 
 🔂($db->🔎("SELECT * FROM your_table"), function () {
   // Process each row of the result
